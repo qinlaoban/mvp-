@@ -1,0 +1,13 @@
+{
+    "books":[
+        {
+            "name":"",
+            "desc":"",
+            "type":"",
+            "price":{
+                "price":"100",
+                "newPrice":"80"
+            }
+        }
+    ]
+}
