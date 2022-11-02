@@ -26,6 +26,8 @@
 		EC5E7A4F2907B68300E9EC89 /* MVP____UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E7A4E2907B68300E9EC89 /* MVP____UITestsLaunchTests.swift */; };
 		EC5E7A6E2907EC9500E9EC89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E7A6C2907EC9500E9EC89 /* LoginViewController.swift */; };
 		EC5E7A6F2907EC9500E9EC89 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5E7A6D2907EC9500E9EC89 /* LoginViewController.xib */; };
+		EC60E81829120C9700B2ABF9 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60E81729120C9700B2ABF9 /* Cat.swift */; };
+		EC60E81A29120D5000B2ABF9 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60E81929120D5000B2ABF9 /* Fish.swift */; };
 		EC75F50D290A60B600733715 /* ShopingCarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75F50C290A60B600733715 /* ShopingCarTableView.swift */; };
 		EC75F50F290A64C100733715 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = EC75F50E290A64C100733715 /* book.json */; };
 		EC7C70F929110BA500236DCD /* ShopingCarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7C70F829110BA500236DCD /* ShopingCarDetailViewController.swift */; };
@@ -73,6 +75,8 @@
 		EC5E7A4E2907B68300E9EC89 /* MVP____UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVP____UITestsLaunchTests.swift"; sourceTree = "<group>"; };
 		EC5E7A6C2907EC9500E9EC89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EC5E7A6D2907EC9500E9EC89 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EC60E81729120C9700B2ABF9 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		EC60E81929120D5000B2ABF9 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
 		EC75F50C290A60B600733715 /* ShopingCarTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCarTableView.swift; sourceTree = "<group>"; };
 		EC75F50E290A64C100733715 /* book.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
 		EC7C70F829110BA500236DCD /* ShopingCarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCarDetailViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				EC019736291206F500722418 /* Dog.swift */,
+				EC60E81729120C9700B2ABF9 /* Cat.swift */,
+				EC60E81929120D5000B2ABF9 /* Fish.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -361,6 +367,7 @@
 			files = (
 				EC16449E2908C91700B57112 /* LoginPresenter.swift in Sources */,
 				EC5E7A302907B68100E9EC89 /* ViewController.swift in Sources */,
+				EC60E81829120C9700B2ABF9 /* Cat.swift in Sources */,
 				ECD647BF290B83DC007F8BA9 /* RowStackView.swift in Sources */,
 				EC1644AE2908CDF800B57112 /* MVCShoppingCarViewController.swift in Sources */,
 				EC7C70F929110BA500236DCD /* ShopingCarDetailViewController.swift in Sources */,
@@ -373,6 +380,7 @@
 				EC5E7A2C2907B68100E9EC89 /* AppDelegate.swift in Sources */,
 				EC5E7A2E2907B68100E9EC89 /* SceneDelegate.swift in Sources */,
 				EC1644A92908CDD200B57112 /* Product.swift in Sources */,
+				EC60E81A29120D5000B2ABF9 /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
