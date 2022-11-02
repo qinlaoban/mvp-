@@ -90,4 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 
 # custom
-./MVP设计模式/test/*
+
+test
+

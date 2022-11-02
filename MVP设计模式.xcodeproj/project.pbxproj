@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC019737291206F500722418 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC019736291206F500722418 /* Dog.swift */; };
 		EC16449E2908C91700B57112 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16449D2908C91700B57112 /* LoginPresenter.swift */; };
 		EC1644A82908CDD200B57112 /* ProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1644A12908CDD200B57112 /* ProductPresenter.swift */; };
 		EC1644A92908CDD200B57112 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1644A32908CDD200B57112 /* Product.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC019736291206F500722418 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		EC16449D2908C91700B57112 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		EC1644A12908CDD200B57112 /* ProductPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPresenter.swift; sourceTree = "<group>"; };
 		EC1644A32908CDD200B57112 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC019735291206E400722418 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				EC019736291206F500722418 /* Dog.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		EC16449F2908CDD200B57112 /* mvp购物车 */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +186,7 @@
 				EC5E7A2D2907B68100E9EC89 /* SceneDelegate.swift */,
 				EC5E7A2F2907B68100E9EC89 /* ViewController.swift */,
 				ECD647BE290B83DC007F8BA9 /* RowStackView.swift */,
+				EC019735291206E400722418 /* test */,
 				EC1644AF2908CE1900B57112 /* mvc购物车 */,
 				EC16449F2908CDD200B57112 /* mvp购物车 */,
 				EC5E7A702907EED400E9EC89 /* 登录 */,
@@ -356,6 +367,7 @@
 				EC1644AC2908CDD200B57112 /* MVPViewController.swift in Sources */,
 				EC1644A82908CDD200B57112 /* ProductPresenter.swift in Sources */,
 				EC5E7A6E2907EC9500E9EC89 /* LoginViewController.swift in Sources */,
+				EC019737291206F500722418 /* Dog.swift in Sources */,
 				EC1644AB2908CDD200B57112 /* CalcCell.swift in Sources */,
 				EC75F50D290A60B600733715 /* ShopingCarTableView.swift in Sources */,
 				EC5E7A2C2907B68100E9EC89 /* AppDelegate.swift in Sources */,
